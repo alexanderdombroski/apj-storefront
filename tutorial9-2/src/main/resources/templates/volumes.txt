@@ -1,0 +1,3 @@
+Date/Time: 2025-03-05 11:03:03.690147Tire Pressure: 24.09
+03-05-2025 Width: 205.00 Aspect Ratio: 50.00 Diameter: 14.00 Volume: 30.24 
+03-05-2025 Width: 185.00 Aspect Ratio: 50.00 Diameter: 14.00 Volume: 24.09 

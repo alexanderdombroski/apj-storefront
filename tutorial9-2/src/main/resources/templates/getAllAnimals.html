@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- saved from url=(0088)https://qrbriggs-byui.github.io/apj-files/tutorials/files/tutorial9-2/getAllAnimals.html -->
+<html xmlns:th="http://www.thymeleaf.org"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Get All Animals</title>
+</head>
+<body data-new-gr-c-s-check-loaded="14.1224.0" data-gr-ext-installed="">
+<h1>All Animals</h1>
+<form th:action="@{/getAllAnimals}" method="get">
+    <select name="method">
+        <option value="restTemplate">RestTemplate</option>
+        <option value="webClient">WebClient</option>
+    </select>
+    <button type="submit">Get Animals</button>
+</form>
+<div th:if="${animals}">
+    <ul>
+        <li th:each="animal : ${animals}">
+            <span th:text="${animal.name}"></span> - <span th:text="${animal.species}"></span>
+        </li>
+    </ul>
+</div>
+<div th:if="${method}">
+    <p>Method Used: <span th:text="${method}"></span></p>
+</div>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+      div.grammarly-desktop-integration {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0, 0, 0, 0);
+        white-space: nowrap;
+        border: 0;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select:none;
+        user-select:none;
+      }
+
+      div.grammarly-desktop-integration:before {
+        content: attr(data-content);
+      }
+    </style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
