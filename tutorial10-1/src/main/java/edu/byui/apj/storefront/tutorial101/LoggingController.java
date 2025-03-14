@@ -15,12 +15,7 @@ public class LoggingController {
 
     @RequestMapping("/")
     public String index() {
-        log.debug("Logger class: {}", log.getClass().getName());
-//        logger.trace("A TRACE Message");
-//        logger.debug("A DEBUG Message");
-//        logger.info("An INFO Message");
-//        logger.warn("A WARN Message");
-//        logger.error("An ERROR Message");
+        logger.debug("Controller class: {}", this.getClass().getName());
 
         return "Howdy! Check out the Logs to see the output...";
     }

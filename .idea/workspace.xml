@@ -4,18 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="fixed pom.xmls and maven">
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LombokLoggingController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/log4j2-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="tutorial10-1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10-1/dependency-tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/dependency-tree.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tutorial10-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,6 +162,9 @@
     </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="" />
@@ -175,7 +172,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741896574441</updated>
-      <workItem from="1741896576471" duration="7422000" />
+      <workItem from="1741896576471" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -193,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741924441942</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="tutorial10-1">
+      <option name="closed" value="true" />
+      <created>1741931266718</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1741931266718</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,7 +206,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed pom.xmls and maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed pom.xmls and maven" />
+    <MESSAGE value="tutorial10-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="tutorial10-1" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
