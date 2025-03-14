@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="tutorial10-1">
+      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/PersonRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial10-1/dependency-tree.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/dependency-tree.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial10-1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tutorial10-1/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,10 +28,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2uHDOMCbeMoiRc9ZLfSXUGCYvAV" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,24 +40,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tutorial10-1/src/main/resources" />
@@ -131,6 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tutorial102Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial10-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.tutorial102.Tutorial102Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="web" />
@@ -172,7 +181,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741896574441</updated>
-      <workItem from="1741896576471" duration="8515000" />
+      <workItem from="1741896576471" duration="9342000" />
+      <workItem from="1741968312088" duration="48000" />
+      <workItem from="1741973898075" duration="3875000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -198,7 +209,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741931266718</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="tutorial10-1">
+      <option name="closed" value="true" />
+      <created>1741932217194</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741932217194</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
