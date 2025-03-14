@@ -4,11 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="fixed pom.xmls and maven" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="fixed pom.xmls and maven">
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/LombokLoggingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/java/edu/byui/apj/storefront/tutorial101/PersonRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/log4j2-spring.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial10-1/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -18,6 +37,9 @@
   "associatedIndex": 3
 }]]></component>
   <component name="ProjectId" id="2uHDOMCbeMoiRc9ZLfSXUGCYvAV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -40,6 +62,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tutorial10-1/src/main/resources" />
+    </key>
+  </component>
   <component name="RunManager" selected="Spring Boot.ApiApplication">
     <configuration default="true" type="JetRunConfigurationType">
       <module name="web" />
@@ -103,6 +130,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tutorial101Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial10-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.tutorial101.Tutorial101Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="web" />
@@ -141,7 +175,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1741896574441</updated>
-      <workItem from="1741896576471" duration="933000" />
+      <workItem from="1741896576471" duration="7422000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -151,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741924391447</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed pom.xmls and maven">
+      <option name="closed" value="true" />
+      <created>1741924441942</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741924441942</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
