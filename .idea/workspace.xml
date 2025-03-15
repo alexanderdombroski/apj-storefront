@@ -4,14 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="tutorial10-1">
-      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial10-2/src/main/java/edu/byui/apj/storefront/tutorial102/PersonRepository.java" afterDir="false" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/controller/TradingCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/model/TradingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/repository/TradingCardRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/controller/CartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/repository/CartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/controller/MongoTradingCardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/model/MongoTradingCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/service/MongoTradingCardClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +141,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ApiMongoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-mongo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.apimongo.ApiMongoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DbApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="db" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.db.DbApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tutorial101Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="tutorial10-1" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.tutorial101.Tutorial101Application" />
@@ -183,7 +212,10 @@
       <updated>1741896574441</updated>
       <workItem from="1741896576471" duration="9342000" />
       <workItem from="1741968312088" duration="48000" />
-      <workItem from="1741973898075" duration="3875000" />
+      <workItem from="1741973898075" duration="4240000" />
+      <workItem from="1741982603076" duration="311000" />
+      <workItem from="1741982923859" duration="1404000" />
+      <workItem from="1742077760075" duration="3225000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -217,7 +249,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741932217194</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished MongoDB Assignment 10-2">
+      <option name="closed" value="true" />
+      <created>1741980703579</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1741980703580</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -226,7 +266,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed pom.xmls and maven" />
     <MESSAGE value="tutorial10-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="tutorial10-1" />
+    <MESSAGE value="Finished MongoDB Assignment 10-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished MongoDB Assignment 10-2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
