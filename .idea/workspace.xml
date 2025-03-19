@@ -4,29 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/controller/TradingCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/model/TradingCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-mongo/src/main/java/edu/byui/apj/storefront/apimongo/repository/TradingCardRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/controller/CartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/repository/CartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/controller/MongoTradingCardController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/model/MongoTradingCard.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/java/edu/byui/apj/storefront/web/service/MongoTradingCardClientService.java" afterDir="false" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="Finished APJ storefront part 3">
+      <change afterPath="$PROJECT_DIR$/tutorial11-1/src/main/java/edu/byui/apj/storefront/tutorial111/Email.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial11-1/src/main/java/edu/byui/apj/storefront/tutorial111/Receiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/resources/static/product-listing.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +40,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Notification.DisplayName-DoNotAsk-Database detector&quot;: &quot;Database detector&quot;,
+    &quot;Notification.DoNotAsk-Database detector&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
@@ -169,6 +154,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tutorial111Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial11-1" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.tutorial111.Tutorial111Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="web" />
@@ -215,7 +207,9 @@
       <workItem from="1741973898075" duration="4240000" />
       <workItem from="1741982603076" duration="311000" />
       <workItem from="1741982923859" duration="1404000" />
-      <workItem from="1742077760075" duration="3225000" />
+      <workItem from="1742077760075" duration="3517000" />
+      <workItem from="1742243470604" duration="836000" />
+      <workItem from="1742360405882" duration="622000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -257,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741980703580</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished APJ storefront part 3">
+      <option name="closed" value="true" />
+      <created>1742081128289</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742081128289</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +269,8 @@
     <MESSAGE value="fixed pom.xmls and maven" />
     <MESSAGE value="tutorial10-1" />
     <MESSAGE value="Finished MongoDB Assignment 10-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished MongoDB Assignment 10-2" />
+    <MESSAGE value="Finished APJ storefront part 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished APJ storefront part 3" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
