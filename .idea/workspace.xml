@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="Finished APJ storefront part 3">
-      <change afterPath="$PROJECT_DIR$/tutorial11-1/src/main/java/edu/byui/apj/storefront/tutorial111/Email.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial11-1/src/main/java/edu/byui/apj/storefront/tutorial111/Receiver.java" afterDir="false" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="Finished tutorial 11-1">
+      <change afterPath="$PROJECT_DIR$/tutorial11-2/src/main/java/edu/byui/apj/storefront/tutorial112/ScheduledTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -161,6 +160,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tutorial112Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="tutorial11-2" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.byui.apj.storefront.tutorial112.Tutorial112Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="web" />
@@ -209,7 +215,8 @@
       <workItem from="1741982923859" duration="1404000" />
       <workItem from="1742077760075" duration="3517000" />
       <workItem from="1742243470604" duration="836000" />
-      <workItem from="1742360405882" duration="622000" />
+      <workItem from="1742360405882" duration="867000" />
+      <workItem from="1742414700744" duration="3947000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -259,7 +266,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742081128289</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished tutorial 11-1">
+      <option name="closed" value="true" />
+      <created>1742361205375</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742361205375</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +285,8 @@
     <MESSAGE value="tutorial10-1" />
     <MESSAGE value="Finished MongoDB Assignment 10-2" />
     <MESSAGE value="Finished APJ storefront part 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished APJ storefront part 3" />
+    <MESSAGE value="Finished tutorial 11-1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished tutorial 11-1" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
