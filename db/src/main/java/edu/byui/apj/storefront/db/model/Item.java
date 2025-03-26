@@ -9,7 +9,6 @@ import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-import lombok.Getter;
 
 @Entity
 @Data
@@ -21,7 +20,7 @@ public class Item {
 
     @JsonBackReference
     @ManyToOne
-    @JoinColumn(name = "cart_id")
+    @JoinColumn(name = "cart_id") // Cannot resolve column 'cart_id'
     Cart cart;
 
     String cardId;

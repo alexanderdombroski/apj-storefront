@@ -11,8 +11,10 @@
         <module>api</module>
         <module>api-mongo</module>
         <module>db</module>
+        <module>model</module>
+        <module>jms</module>
     </modules>
-    <version>1.0-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <properties>
         <maven.compiler.source>21</maven.compiler.source>
