@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="Finished Tutorial 12-1">
-      <change afterPath="$PROJECT_DIR$/tutorial12-2/src/main/java/edu/byui/apj/storefront/tutorial122/MvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial12-2/src/main/java/edu/byui/apj/storefront/tutorial122/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial12-2/src/main/resources/templates/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tutorial12-2/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="de7fe14d-831b-48bc-989b-d83959aa31aa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/AddressTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/CardOrderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/CartRepositoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/CartTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/CustomerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/ItemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/src/test/java/edu/byui/apj/storefront/db/OrderRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/db/src/main/java/edu/byui/apj/storefront/db/model/Item.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +65,7 @@
     &quot;Spring Boot.ApiMongoApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.DbApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.JmsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.Tutorial122Application.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.WebApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
@@ -351,7 +354,8 @@
       <workItem from="1742949778674" duration="27000" />
       <workItem from="1742949812944" duration="745000" />
       <workItem from="1742951619255" duration="7132000" />
-      <workItem from="1743019736780" duration="1128000" />
+      <workItem from="1743019736780" duration="1716000" />
+      <workItem from="1743465043816" duration="1437000" />
     </task>
     <task id="LOCAL-00001" summary="fixed pom.xmls and maven">
       <option name="closed" value="true" />
@@ -433,7 +437,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742963806348</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Finished Tutorial 12-2">
+      <option name="closed" value="true" />
+      <created>1743022381334</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1743022381334</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +460,8 @@
     <MESSAGE value="Finished tutorial 11-2" />
     <MESSAGE value="Finished APJ StoreFront JMS" />
     <MESSAGE value="Finished Tutorial 12-1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Tutorial 12-1" />
+    <MESSAGE value="Finished Tutorial 12-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Tutorial 12-2" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
